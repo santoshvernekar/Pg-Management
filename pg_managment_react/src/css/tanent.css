@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.tanent{
+    display: inline-block;
+    display: grid;
+    grid-template-columns: auto;
+}
+.tanetform{
+    background-color:rgb(155, 156, 227);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.table3 {
+  border-collapse: collapse;
+  width: 100%;
+  display: inline-block;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f1caca}
+
+th {
+  background-color: #a9ee55;
+  color: rgb(11, 8, 8);
+}
+
+.chart{
+    width: 45%;
+}
+
+.button2 {background-color: #008CBA;}
